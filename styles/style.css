@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: #1d142e;
+    list-style: none;
+    font-size: 17px;
+}
+.logo img{
+    margin-left: 200px;
+    height: 70px;
+}
+.blanco{
+    color: white;
+    margin-left: 380px;
+    margin-top: 25px;
+}
+li p{
+    color: #828282;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.degradado{
+    margin-top: 13px;
+    border: none;
+    background: linear-gradient(to right, #8e2de2, #2196f3);
+    padding: 10px 28px 15px 28px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    background-image: url("../assets/images/hojasFondo.jpg");
+    background-position: center;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: 400px 42%;
+    background-color: rgba(21, 21, 56, 0.568); 
+    background-blend-mode: overlay; 
+}
+.imagen img{
+    height: 500px;
+    margin: 150px 150px;
+}
+.caja{
+    background-color: #332352;
+    width: 520px;
+    padding-top: 175px;
+    padding-left: 220px;
+}
+.caja h1{
+    color: white;
+    font-size: 80px;
+    width: 300px;
+}
+.caja p{
+    color: white;
+    font-size: 20px;
+    width: 480px;
+    margin-top: 30px;
+}
+.botones{
+    border: 2px solid #8282825a;
+    margin-top: 40px;
+    width: 342px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.boton1{
+    border: none;
+    background-color: white;
+    color: #E91E63;
+    padding: 10px 28px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.boton2{
+    border: 3px solid white;
+    background-color: #332352;
+    color: white;
+    padding: 8px 28px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.contenedor2{
+    background-color: #faf7fd;
+}
+.contenedor22{
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    text-align: center;
+    color: #f8388e;
+    font-size: 65px;
+    padding-top: 35px;
+}
+.contenedor22 img{
+    height: 320px;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+.texto{
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.parrafo{
+    font-size: 18px;
+}
+.titulo2{
+    color: #d32d78;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.titulo3{
+    color: #d32d78;
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.fa-regular{
+    color: #d32d78;
+    padding-right: 6px;
+}
+.contenedor3{
+    background-color: #1d142e;
+    margin-top: 70px;
+}
+.plans{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    padding-top: 25px;
+}
+.lorem{
+    color: white;
+    width: 800px;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 30px 325px;
+}
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.contenedor-izquierda{
+    background-color: white;
+    margin-left: 222px;
+    border-radius: 8px;
+    width: 320px;
+}
+.lite{
+    color: #f8388e;
+    font-size: 22px;
+    margin-left: 140px;
+}
+.contenedor-izquierda img{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.free{
+    background-color: rgb(241, 240, 240);
+    margin-top: 18px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.fre{
+    font-size: 15px;
+    margin: 10px 0 0 175px;
+}
+.o{
+    font-size: 40px;
+    margin: -28px 0 0 120px;
+}
+.izquierda{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.nulla{
+    width: 250px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 17px;
+    margin-left: 35px;
+}
+.fa-solid{
+    color: #f8388e;
+}
+.full{
+    color: black;
+    text-align: center;
+    margin-top: -19px;
+    margin-right: 60px;
+    font-size: 19px;
+}
+.fa-x{
+    color: black;
+}
+.bt{
+    border-style: none;
+    color: white;
+    background-color: #f8388e;
+    padding: 15px 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.botonn{
+    background-color: rgb(241, 240, 240);
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.contenedor-centro{
+    background-color: white;
+    margin-left: 30px;
+    width: 320px;
+    border-radius: 8px;
+}
+.contenedor-centro img{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 90px;
+}
+.centro{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.stan{
+    color: #01062b;
+    font-size: 22px;
+    margin-left: 115px;
+    margin-top: -10px;
+}
+.per{
+    font-size: 15px;
+    margin: 10px 0 0 160px;
+    color: black;
+}
+.u{
+    font-size: 40px;
+    margin: -28px 0 0 80px;
+    color: black;
+}
+.btt{
+    border-style: none;
+    color: white;
+    background-color: #040d51;
+    padding: 15px 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.centro i{
+    color: #040d51;
+}
+.contenedor-derecha{
+    background-color: white;
+    margin-left: 30px;
+    width: 320px;
+    border-radius: 8px;
+}
+.contenedor-derecha img{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 90px;
+}
+.ul{
+    color: #01062b;
+    font-size: 22px;
+    margin-left: 115px;
+    margin-top: -10px;
+}
+.derecha{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.derecha i{
+    color: #040d51;
+}
+.user{
+    font-size: 15px;
+    margin: 10px 0 0 180px;
+    color: black;
+}
+.a{
+    font-size: 40px;
+    margin: -50px 0 0 80px;
+    color: black;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 60px;
+    padding: 30px 0 30px 190px;
+}
+.uno{
+    display: flex;
+    flex-direction: row;
+}
+.color{
+    color: #d32d78;
+    margin-left: 4px;
+}
+.dos{
+    margin-left: 450px;
+
+}
+.fa-brands{
+    font-size: 25px;
+    color: rgb(56, 56, 56);
+    margin-left: 15px;
+}
+
+
+
