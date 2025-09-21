@@ -147,7 +147,7 @@ li p{
     width: 800px;
     font-size: 18px;
     text-align: center;
-    margin: 30px 0 30px 325px;
+    margin: 30px 0 30px 360px;
 }
 .contenedor-principal{
     display: flex;
@@ -156,7 +156,7 @@ li p{
 }
 .contenedor-izquierda{
     background-color: white;
-    margin-left: 222px;
+    margin-left: 250px;
     border-radius: 8px;
     width: 320px;
 }
@@ -324,13 +324,14 @@ footer{
 .uno{
     display: flex;
     flex-direction: row;
+    margin-left: 60px;
 }
 .color{
     color: #d32d78;
     margin-left: 4px;
 }
 .dos{
-    margin-left: 450px;
+    margin-left: 500px;
 
 }
 .fa-brands{
