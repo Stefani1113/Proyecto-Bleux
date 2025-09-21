@@ -93,6 +93,7 @@ li p{
 }
 .contenedor2{
     background-color: #faf7fd;
+    padding-bottom: 60px;
 }
 .contenedor22{
     display: flex;
@@ -134,7 +135,6 @@ li p{
 }
 .contenedor3{
     background-color: #1d142e;
-    margin-top: 70px;
 }
 .plans{
     text-align: center;
